@@ -5,6 +5,7 @@
 #include "AuraAbilitySystem/AuraAbilitySystemComponent.h"
 #include "AuraAbilitySystem/AuraAttributeSet.h"
 
+
 AAuraPlayerState::AAuraPlayerState()
 {
 	AbilitySystemComponent = CreateDefaultSubobject<UAuraAbilitySystemComponent>("AbilitySystemComponent");
