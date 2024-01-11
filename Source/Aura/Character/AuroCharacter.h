@@ -16,5 +16,12 @@ class AURA_API AAuroCharacter : public AAuroCharacterBase
 
 public:
 	AAuroCharacter();
+
+	virtual void PossessedBy(AController* NewController) override;
+
+	virtual void OnRep_PlayerState() override;
+
+private:
+	void InitActorAbilityInfo();
 	
 };
