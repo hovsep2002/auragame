@@ -37,7 +37,5 @@ void AAuroEnemy::UnHighlightActor()
 void AAuroEnemy::BeginPlay()
 {
 	Super::BeginPlay();
-
-	check(AbilitySystemComponent);
 	AbilitySystemComponent->InitAbilityActorInfo(this, this);
 }

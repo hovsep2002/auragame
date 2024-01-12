@@ -24,6 +24,7 @@ public:
 	virtual void UnHighlightActor() override;
 	//end enemy inteface
 
+protected:
 	virtual void BeginPlay() override;
 
 
